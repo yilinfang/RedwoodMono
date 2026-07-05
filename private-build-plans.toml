@@ -1,9 +1,9 @@
 [buildPlans.RedwoodMono]
 family = "Redwood Mono"
-spacing = "normal"
+spacing = "fontconfig-mono"
 serifs = "sans"
 noCvSs = true
-exportGlyphNames = false
+exportGlyphNames = true
 
 [buildPlans.RedwoodMono.variants.design]
 one = "no-base"

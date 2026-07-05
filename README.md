@@ -10,6 +10,12 @@ Requires Docker. Fonts are written to `dist/RedwoodMono/TTF/` (hinted TTFs,
 7 weights x upright/italic = 14 files). The Iosevka source version is pinned in
 `Iosevka-version.txt`; the glyph customization lives in `private-build-plans.toml`.
 
+## Known Issues
+
+- VS Code's built-in terminal may not render ligatures correctly. This appears to be
+  a VS Code terminal rendering bug rather than a font issue, and is not fixed yet — if
+  you know how to work around it, help is welcome.
+
 ## Credits
 
 - [Iosevka](https://github.com/be5invis/Iosevka) by Renzhi Li (Belleve Invis) — the
