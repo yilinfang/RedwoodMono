@@ -1,0 +1,10 @@
+.git
+dist
+tmp
+LICENSE
+README.md
+build.sh
+Dockerfile
+.dockerignore
+Iosevka-version.txt
+.DS_Store
