@@ -7,4 +7,4 @@ docker build \
 	--output type=local,dest=dist \
 	--build-arg VER="${VER}" \
 	.
-echo "Done. Fonts in dist/RedwoodMono/TTF/"
+echo "Done. Fonts in dist/RedwoodMono/ (TTF/ hinted, TTF-Unhinted/ unhinted)."
