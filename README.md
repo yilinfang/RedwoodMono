@@ -5,14 +5,17 @@ to mimic [Berkeley Mono](https://usgraphics.com/products/berkeley-mono).
 
 ## Build
 
-    ./build.sh
+```bash
+./build.sh
+```
 
-Requires Docker. Fonts are written to `dist/RedwoodMono/` in two flavours —
-`TTF/` (hinted) and `TTF-Unhinted/` (unhinted), each with 7 weights x
-upright/oblique = 14 files. On macOS, which largely ignores TrueType hinting,
-the unhinted `TTF-Unhinted/` build is usually the better choice. The Iosevka
-source version is pinned in `Iosevka-version.txt`; the glyph customization
-lives in `private-build-plans.toml`.
+- Docker required.
+- Fonts are written to `dist/RedwoodMono/` in two flavours — `TTF/` (hinted)
+  and `TTF-Unhinted/` (unhinted).
+- On macOS, which largely ignores TrueType hinting, the unhinted
+  `TTF-Unhinted/` build is usually the better choice.
+- The Iosevka source version is pinned in `Iosevka-version.txt`.
+- Glyph customization lives in `private-build-plans.toml`.
 
 ## Known Issues
 
