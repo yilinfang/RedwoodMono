@@ -22,7 +22,7 @@ lives in `private-build-plans.toml`.
 
 ## Credits
 
-- [Iosevka](https://github.com/be5invis/Iosevka) by Renzhi Li (Belleve Invis) — the
+- [Iosevka](https://github.com/be5invis/Iosevka) by be5invis — the
   base font this build is generated from.
 - [Ioskeley Mono](https://github.com/ahatem/IoskeleyMono) by ahatem — inspiration for
   many of the symbol, punctuation, and ligature choices.
