@@ -109,16 +109,6 @@ shape = 700
 menu = 700
 css = 700
 
-[buildPlans.RedwoodMono.weights.Thin]
-shape = 100
-menu = 100
-css = 100
-
-[buildPlans.RedwoodMono.weights.ExtraLight]
-shape = 200
-menu = 200
-css = 200
-
 [buildPlans.RedwoodMono.weights.Light]
 shape = 300
 menu = 300
@@ -146,7 +136,7 @@ menu = "upright"
 css = "normal"
 
 [buildPlans.RedwoodMono.slopes.Oblique]
-angle = 11
+angle = 15        # Original Berkeley Mono uses 16, however the valid range from Iosevka is [0, 15]
 shape = "oblique"
 menu = "oblique"
 css = "oblique"
